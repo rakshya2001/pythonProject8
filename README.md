@@ -1,17 +1,18 @@
-# Python program to create a simple GUI
-# calculator using Tkinter
-# Python program to create a simple GUI calculator using Tkinter
-
-
-# import everything from tkinter module
+![pythonProject8 – simple_calculator py 4_23_2021 10_59_08 AM](https://user-images.githubusercontent.com/78782346/115824374-8e1ee000-a427-11eb-90fb-2ff2226f321f.png)
+![pythonProject8 – simple_calculator py 4_23_2021 10_59_08 AM](https://user-images.githubusercontent.com/78782346/115824418-9aa33880-a427-11eb-8548-b42ada59e141.png)
+![Simple Calculator 4_23_2021 11_01_10 AM](https://user-images.githubusercontent.com/78782346/115824420-9bd46580-a427-11eb-9ff5-a3e0fa995d5a.png)
+![Simple Calculator 4_23_2021 11_01_28 AM](https://user-images.githubusercontent.com/78782346/115824422-9d059280-a427-11eb-9c08-dc38c7c965bc.png)
+    # Python program to create a simple GUI calculator using Tkinter 
+   
+    # import everything from tkinter module
 from tkinter import *
 
 expression = ""
 
-
-# Function to update expressiom
-# in the text entry box
-# Function to update expression in the text entry box
+ 
+    # Function to update expressiom
+    # in the text entry box
+    # Function to update expression in the text entry box
 
 def press(num):
     # point out the global expression variable
@@ -20,7 +21,7 @@ def press(num):
 def press(num):
 
 
-# Function to evaluate the final expression
+    # Function to evaluate the final expression
 def equalpress():
     # Try and except statement is used
     # for handling the errors like zero
@@ -59,9 +60,9 @@ def equal_press():
         expression = ""
 
 
-# Function to clear the contents
-# of text entry box
-# declare Function to clear the contents of text entry box
+    # Function to clear the contents
+    # of text entry box
+    # declare Function to clear the contents of text entry box
 
 def clear():
     global expression
@@ -204,6 +205,6 @@ def clear():
     Decimal.grid(row=6, column=0)
 
 
-# start the GUI
+    # start the GUI
 
 gui.mainloop() 
